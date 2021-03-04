@@ -1,2 +1,2 @@
-# pedestrians_recognition
+# Pedestrians Recognition
  Performing pedestrian recognition with persistent homology
