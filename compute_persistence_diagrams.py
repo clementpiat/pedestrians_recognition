@@ -35,7 +35,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-m", "--max_edge_length", type=float, default=0.2, help="Max edge length for the Vietoris-Rips filtration")
+    parser.add_argument("-m", "--max_edge_length", type=float, default=10.0, help="Max edge length for the Vietoris-Rips filtration")
                         
     args = parser.parse_args()
     print(f"> args:\n{json.dumps(vars(args), sort_keys=True, indent=4)}\n")

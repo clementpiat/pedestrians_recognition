@@ -36,6 +36,14 @@ landscapes or both.
 Compare the obtained classification results to the previous one.
 
 ## Code. 
-For persistent homology computations, the use of the GUDHI library (http://gudhi.gforge.
-inria.fr/) is strongly recommended. The use of the Scikit-Learn library (Python)
-is highly recommended for the dimensionality reduction and classification experiments.
+
+For the tasks 2 and 3, you can run the respective following scripts:
+```
+python compute_distance_matrix.py
+```
+```
+python compute_persistence_diagrams.py
+```
+This will create the appropriate files in `./data/`.
+
+The remaining tasks are covered directly in the notebook `./explore.ipynb`.
